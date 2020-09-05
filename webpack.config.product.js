@@ -7,7 +7,7 @@ module.exports = {
 		filename: '[name]_[hash:6].bundle.js',
 		path: path.join(__dirname, 'static'),
 	},
-	mode: 'development',
+	mode: 'production',
 	module: {
 		rules: [
 			{

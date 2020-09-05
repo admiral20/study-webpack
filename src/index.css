@@ -1,8 +1,14 @@
+@import 'header.css';
+@import url(guoqing.less);
+
 .main {
-    background: red;
+    /* background: red; */
+    background: url('./assets/ship.jpg');
+    background-size: contain;
 }
 
 p {
     background: yellow;
-    color: blue
+    color: blue;
+    transform: translate(-50%, -50%);
 }
